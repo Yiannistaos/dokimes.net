@@ -1,3 +1,20 @@
 body {
     padding: 20px;
 }
+
+/**
+Detecting Device Orientation with Javascript
+*/
+
+/* Portrait orientation */
+@media screen and (orientation: portrait) {
+    * {
+        letter-spacing: inherit;
+    }
+}
+/* Landscape orientation */
+@media screen and (orientation: landscape) {
+    * {
+        letter-spacing: 1.5px;
+    }
+}
